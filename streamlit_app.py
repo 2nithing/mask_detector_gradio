@@ -10,7 +10,7 @@ def load_tfmodel():
 
 
 st.title("Mask Detector")
-st.write("Take photo to see the ML model identfying whether you have worn a mask or not")
+st.write("Take photo to see the ML model identfying whether you are wearing a mask or not")
 col1,col2 = st.columns(2)
 with col1:
     with st.container(border=True):
